@@ -55,3 +55,14 @@
     
 
 })(jQuery);
+
+function toSignup() {
+    document.getElementById('login').style.display = 'none';
+    document.getElementById('signup').style.display = 'block';
+};
+
+function toLogin() {
+    document.getElementById('login').style.display = 'block';
+    document.getElementById('signup').style.display = 'none';
+};
+
